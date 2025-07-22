@@ -14,3 +14,21 @@ Ashu is a simple AI-powered virtual assistant built with Python and Streamlit. I
 - 🗒️ **Open Notepad** (local): Try `open notepad` (Windows only)
 - ❌ **Exit Command**: Type `stop` or `exit` to simulate closing
 
+## 📦 Requirements
+Python 3.7+
+
+streamlit
+
+wikipedia
+
+pywhatkit
+
+## 🧠 Example Commands
+time
+
+who is Albert Einstein
+
+play calm piano music
+
+search best places to visit
+
