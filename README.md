@@ -1,34 +1,60 @@
-# Smart_Voice_Assistant
-# 🗣️ Ashu - Your Personal AI Assistant (Streamlit App)
+## 🗣️ Smart Voice Assistant
+The Smart Voice Assistant is an AI-powered desktop assistant that can listen to your voice commands and respond intelligently. Built with Python, it helps users perform day-to-day tasks like web searches, playing music, checking the time, and answering questions using voice interactions.
 
-Ashu is a simple AI-powered virtual assistant built with Python and Streamlit. It allows users to perform tasks like checking the time, searching the web, getting quick Wikipedia summaries, and playing YouTube videos—all through a friendly text-based interface.
+## 🎯 Features
+- 🎤 Speech Recognition – Understands and transcribes your voice commands in real-time
 
----
+- 🗣️ Text-to-Speech (TTS) – Replies to your commands using a human-like voice
 
-## 🚀 Features
+- 🔍 Web Automation – Performs Google and Wikipedia searches
 
-- 🔍 **Google Search**: Type queries like `search Python tutorials`
-- 🧠 **Wikipedia Info**: Ask `who is Elon Musk`
-- 🎵 **Play YouTube**: Try `play Shape of You`
-- 🕒 **Get Time**: Just type `time`
-- 🗒️ **Open Notepad** (local): Try `open notepad` (Windows only)
-- ❌ **Exit Command**: Type `stop` or `exit` to simulate closing
+- ⏰ Time and Date Reporting – Tells current time/date on request
 
-## 📦 Requirements
-Python 3.7+
+- 🎵 Music Playback – Plays songs via YouTube
 
-streamlit
+- 🌐 Open Websites – Launches commonly used websites (YouTube, Google, etc.)
 
-wikipedia
+- 📚 General Knowledge Answers – Uses Wikipedia to answer factual queries
 
-pywhatkit
+## 🧰 Tech Stack
+- Programming Language: Python
 
-## 🧠 Example Commands
-time
+- Speech Recognition: speech_recognition
 
-who is Albert Einstein
+- Text-to-Speech: pyttsx3
 
-play calm piano music
+- Other Libraries:
 
-search best places to visit
+   - datetime
 
+   - webbrowser
+
+   - pywhatkit
+
+   - wikipedia
+
+   - os
+
+## 🎤 Voice Commands Examples
+Try saying things like:
+
+- “What time is it?”
+
+- “Play calm music on YouTube”
+
+- “Who is Elon Musk?”
+
+- “Search for interior design ideas on Google”
+
+- “Open YouTube”
+
+- “Tell me something about Python programming”
+
+## 🤝 Contributing
+Contributions, suggestions, and feedback are welcome! Please open an issue or submit a pull request.
+
+## 🚀 How to Run Locally
+1. Clone the repository
+2. Create a virtual environment and activate it
+3. Install dependencies
+4. Run the app
